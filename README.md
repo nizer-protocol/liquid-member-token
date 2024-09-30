@@ -13,6 +13,7 @@ Core features of Nizer LMT
 - [ ] Manage APY reward pool
 - [ ] APY reward multiplier
 - [ ] Manage membership (Mint and transfer NFTs based on token holdings)
+- [ ] Providing APY backed by USDT collateral.
 
 ## Specifications
 ### Wrap / Unwrap
@@ -35,3 +36,15 @@ When you unwrap WLMT, you are effectively burning the WLMT and releasing the equ
 ```bash
 cargo build-bpf
 ```
+
+## Contributing
+
+We welcome contributions from the community! Please follow these guidelines to contribute effectively.
+
+### How to 
+
+1. **Fork the Repository**: Click the "Fork" button at the top of this page.
+2. **Create a Branch**: Use a descriptive name for your branch, such as `feature/add-new-feature` or `bugfix/fix-issue-123`.
+   ```bash
+   git checkout -b feature/your-feature-name
+    ```
